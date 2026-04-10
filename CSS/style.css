@@ -8,7 +8,7 @@
     
     /* BODY */
     body{
-    background:#0b1b4d;
+    background:#151b2e;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -73,7 +73,7 @@
     font-size:28px;
     font-weight:700;
     color:#ffffff;
-    -webkit-text-stroke:1px #4a5fb3;
+    -webkit-text-stroke:3px #4a5fb3;
     text-shadow:0 0 10px rgba(255,255,255,0.8);
     }
     
