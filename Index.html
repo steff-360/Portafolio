@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Portafolio | Stefani Sánchez</title>
 
-<link rel="stylesheet" href="CSS/style.css">
+<!-- RUTA CORRECTA -->
+<link rel="stylesheet" href="../CSS/style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -18,111 +17,107 @@
 
 <div class="container">
 
-<!-- PERFIL -->
+    <!-- PERFIL -->
+    <div class="perfil">
 
-<div class="perfil">
+        <div class="avatar-container">
+            <!-- IMAGEN -->
+            <img src="Img/Stefani.png" class="avatar" alt="Foto de Stefani">
 
-<div class="avatar-container">
+            <!-- CÍRCULO SOLO PORTAFOLIO -->
+            <div class="circulo-texto">
+                <span style="transform: rotate(0deg)">P</span>
+                <span style="transform: rotate(36deg)">O</span>
+                <span style="transform: rotate(72deg)">R</span>
+                <span style="transform: rotate(108deg)">T</span>
+                <span style="transform: rotate(144deg)">A</span>
+                <span style="transform: rotate(180deg)">F</span>
+                <span style="transform: rotate(216deg)">O</span>
+                <span style="transform: rotate(252deg)">L</span>
+                <span style="transform: rotate(288deg)">I</span>
+                <span style="transform: rotate(324deg)">O</span>
+            </div>
+        </div>
 
-<img src="Img/Stefani.png" class="avatar" alt="Foto de Stefani">
+        <h1>Stefani Sánchez</h1>
+        <p>Estudiante apasionada por el desarrollo web y la tecnología.</p>
 
-<!-- TEXTO EN CIRCULO -->
-<div class="circulo-texto">
-<span style="transform: rotate(0deg)">P</span>
-<span style="transform: rotate(36deg)">O</span>
-<span style="transform: rotate(72deg)">R</span>
-<span style="transform: rotate(108deg)">T</span>
-<span style="transform: rotate(144deg)">A</span>
-<span style="transform: rotate(180deg)">F</span>
-<span style="transform: rotate(216deg)">O</span>
-<span style="transform: rotate(252deg)">L</span>
-<span style="transform: rotate(288deg)">I</span>
-<span style="transform: rotate(324deg)">O</span>
-</div>
+    </div>
 
-</div>
+    <!-- MENÚ -->
+    <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </div>
 
-<h1>Stefani Sánchez</h1>
-<p>Estudiante apasionada por el desarrollo web y la tecnología.</p>
+    <!-- INICIO -->
+    <section id="inicio" class="info">
+        <h2>🧠 BIENVENIDO</h2>
+        <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" class="gif">
+        <p>Explora mi mundo digital y mis proyectos creativos.</p>
+    </section>
 
-</div>
+    <!-- SOBRE MÍ -->
+    <section id="sobre" class="info">
+        <h2>Sobre mí</h2>
+        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" class="gif">
+        <p>
+            Soy estudiante apasionada por el desarrollo web. Me gusta crear páginas modernas,
+            creativas y funcionales utilizando HTML y CSS.
+        </p>
+    </section>
 
-<!-- MENU -->
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="info">
+        <h2>Habilidades</h2>
+        <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" class="gif">
 
-<nav class="menu">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Diseño Web</li>
+            <li>Python</li>
+            <li>Creatividad</li>
+            <li>Responsable</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+    </section>
 
-<a href="#inicio">Inicio</a>
-<a href="#sobre">Sobre mí</a>
-<a href="#habilidades">Habilidades</a>
-<a href="#proyectos">Proyectos</a>
-<a href="#contacto">Contacto</a>
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="info">
+        <h2>Proyectos</h2>
 
-</nav>
+        <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" class="gif">
 
-<!-- CONTENIDO -->
+        <div class="proyecto">
+            <h3>WebQuest</h3>
+            <p>Proyecto educativo web.</p>
+        </div>
 
-<div class="contenido">
+        <div class="proyecto">
+            <h3>Ubuntu</h3>
+            <p>Guía de instalación completa.</p>
+        </div>
 
-<section id="inicio" class="info">
-<h2>Bienvenida</h2>
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" class="gif">
-<p>Bienvenido a mi portafolio donde muestro mi aprendizaje en desarrollo web.</p>
-</section>
+        <div class="proyecto">
+            <h3>Calculadora Python</h3>
+            <p>Aplicación básica para cálculos y datos estadísticos.</p>
+        </div>
+    </section>
 
-<section id="sobre" class="info">
-<h2>Sobre mí</h2>
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" class="gif">
-<p>Soy estudiante apasionada por la programación y el diseño web. Me gusta aprender y superar nuevos retos.</p>
-</section>
+    <!-- CONTACTO -->
+    <section id="contacto" class="info">
+        <h2>📩 CONTACTO</h2>
 
-<section id="habilidades" class="info">
-<h2>Habilidades</h2>
-<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" class="gif">
+        <img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" class="gif">
 
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>Diseño Web</li>
-<li>Python</li>
-<li>Creatividad</li>
-<li>Responsable</li>
-<li>Trabajo en equipo</li>
-</ul>
-
-</section>
-
-<section id="proyectos" class="info">
-<h2>Proyectos</h2>
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" class="gif">
-
-<div class="proyecto">
-<h3>WebQuest</h3>
-<p>Proyecto educativo web.</p>
-</div>
-
-<div class="proyecto">
-<h3>Ubuntu</h3>
-<p>Guía de instalación.</p>
-</div>
-
-<div class="proyecto">
-<h3>Calculadora Python</h3>
-<p>Aplicación básica para cálculos.</p>
-</div>
-
-</section>
-
-<section id="contacto" class="info">
-<h2>Contacto</h2>
-<img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" class="gif">
-
-<p>Email: stefani@email.com</p>
-<p>GitHub: github.com/stefani</p>
-<p>Instagram: @Quepaso_20</p>
-
-</section>
-
-</div>
+        <p>Email: <strong>stefani@email.com</strong></p>
+        <p>GitHub: <strong>github.com/stefani</strong></p>
+        <p>Instagram: <strong>@Quepaso_20</strong></p>
+    </section>
 
 </div>
 
